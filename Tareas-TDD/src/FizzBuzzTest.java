@@ -134,4 +134,69 @@ class FizzBuzzTest {
         System.out.println("Esperado: " + esperado + "Resultado " + resultado);
         assertEquals(esperado, resultado);
     }
+    @Test
+    void testTestear11(){
+        //Arrange
+        FizzBuzz fiz = new FizzBuzz();
+
+        //Act
+        String resultado = fiz.calcula(11);
+        String esperado = "11";
+
+        //Assert
+        System.out.println("Esperado: " + esperado + "Resultado " + resultado);
+        assertEquals(esperado, resultado);
+    }
+    @Test
+    void testTestear12(){
+        //Arrange
+        FizzBuzz fiz = new FizzBuzz();
+
+        //Act
+        String resultado = fiz.calcula(12);
+        String esperado = "FIZZ";
+
+        //Assert
+        System.out.println("Esperado: " + esperado + "Resultado " + resultado);
+        assertEquals(esperado, resultado);
+    }
+    @Test
+    void testTestear13(){
+        //Arrange
+        FizzBuzz fiz = new FizzBuzz();
+
+        //Act
+        String resultado = fiz.calcula(13);
+        String esperado = "13";
+
+        //Assert
+        System.out.println("Esperado: " + esperado + "Resultado " + resultado);
+        assertEquals(esperado, resultado);
+    }
+    @Test
+    void testTestear14(){
+        //Arrange
+        FizzBuzz fiz = new FizzBuzz();
+
+        //Act
+        String resultado = fiz.calcula(14);
+        String esperado = "14";
+
+        //Assert
+        System.out.println("Esperado: " + esperado + "Resultado " + resultado);
+        assertEquals(esperado, resultado);
+    }
+    @Test
+    void testTestear15(){
+        //Arrange
+        FizzBuzz fiz = new FizzBuzz();
+
+        //Act
+        String resultado = fiz.calcula(15);
+        String esperado = "FIZZBUZZ";
+
+        //Assert
+        System.out.println("Esperado: " + esperado + "Resultado " + resultado);
+        assertEquals(esperado, resultado);
+    }
 }
