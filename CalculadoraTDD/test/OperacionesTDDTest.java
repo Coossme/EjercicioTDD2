@@ -66,6 +66,5 @@ class OperacionesTDDTest {
         //Assert
         assertEquals(-1, numero);
         System.out.println(numero);
-
     }
 }

@@ -18,8 +18,6 @@ public class OperacionesTDD {
             }
             int total = Integer.valueOf(coma[i]);
             suma = suma + total;
-
-
         }
 
         return suma;
