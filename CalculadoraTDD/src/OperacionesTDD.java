@@ -23,7 +23,6 @@ public class OperacionesTDD {
             }
             suma = suma + total;
         }
-
         return suma;
     }
 
