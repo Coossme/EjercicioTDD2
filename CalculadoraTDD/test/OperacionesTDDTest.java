@@ -78,6 +78,17 @@ class OperacionesTDDTest {
         //Assert
         assertEquals(-1, numero);
         System.out.println(numero);
+    }
+    @Test
+    void testeo5mas1002Devuelve4() {
+        //Arrange
+        OperacionesTDD calculadora = new OperacionesTDD();
 
+        //Act
+        int numero = calculadora.operacion("5,1002");
+
+        //Assert
+        assertEquals(5, numero);
+        System.out.println(numero);
     }
 }

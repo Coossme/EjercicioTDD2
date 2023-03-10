@@ -21,6 +21,10 @@ public class OperacionesTDD {
                 System.out.println("Número negativo no permitido");
                 return -1;
             }
+            if (total > 1000){
+                total = 0;
+                System.out.println("Número superior a 1000 ignorado");
+            }
             suma = suma + total;
         }
         return suma;
